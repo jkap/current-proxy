@@ -11,3 +11,10 @@ httpProxy.createServer({
     cert: fs.readFileSync('server.crt', 'utf8')
   }
 }).listen(8009);
+
+httpProxy.createServer({
+  target: {
+    host: 'currentcondition.org',
+    port: 80
+  }
+}).listen(8010);
