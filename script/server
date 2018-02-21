@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Server will be listening at https://localhost:8009"
+
+node index.js
