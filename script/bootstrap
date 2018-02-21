@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+npm install
+./generate-certs.sh
+
+echo ""
+echo "Ready to run!"
